@@ -1,0 +1,30 @@
+#header {
+    background: #22c0db
+}
+#jenkins-head-icon {
+    content: url('/jenkins/userContent/icon.PNG');
+    height: 40px;
+    width: 36px;
+}
+#jenkins-name-icon {
+    content: url('/jenkins/userContent/title.PNG');
+    height: 40px;
+    animation:hurueru .1s  infinite;
+}
+@keyframes hurueru {
+    0% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+    25% {
+        transform: translate(2px, 2px) rotateZ(1deg)
+    }
+    50% {
+        transform: translate(0px, 5px) rotateZ(0deg)
+    }
+    75% {
+        transform: translate(5px, 0px) rotateZ(-1deg)
+    }
+    100% {
+        transform: translate(0px, 0px) rotateZ(0deg)
+    }
+}
