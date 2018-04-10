@@ -1,0 +1,16 @@
+#header {
+    animation:gradation .3s  infinite;
+}
+
+#jenkins-head-icon {
+    content: url('/jenkins/userContent/prideparrot.gif');
+    height: 40px;
+    width: 36px;
+}
+
+#jenkins-name-icon {
+    content: url('/jenkins/userContent/jenkins_logo.png');
+    height: 40px;
+}
+
+@keyframes gradation { 0% { background-color: #fd6867; } 15% { background-color: #c1528b; } 30% { background-color: #ff8cff; } 45% { background-color: #d78cff; } 60% { background-color: #87b0f5; } 75% { background-color: #89ff8a; } 100% { background-color: #f5d588; }}
