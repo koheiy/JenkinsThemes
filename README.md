@@ -1,4 +1,3 @@
 # JenkinsThemes
 ## How To Use
-Install "Simple Theme Plugin"
-Put css "~/userContent"
+Install "Simple Theme Plugin" and put css "~/userContent"
